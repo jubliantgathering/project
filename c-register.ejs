@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUBILANT GATHERING.register</title>
+    <link rel="stylesheet" href="customer.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/c-register" method="post">
+            <h2> REGISTRATION</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name" name="username" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="name" placeholder="Enter your valid email address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" id="name" placeholder="Enter Phone Number" name="phonenumber" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="name" placeholder="Enter new password" name="password" required>
+                </div>
+                
+            </div>
+            
+            <div class="button-container" id="popup">
+                <input type="submit" value="REGISTER" class="btn" onclick="openPopup()">
+
+                <!-- <div class="msg">
+                    REGISTRATION SUCCESSFULL!!!
+                    <button class="ok" onclick="closePopup()" >OK</button>
+                </div> -->
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
